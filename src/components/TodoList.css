@@ -1,0 +1,80 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-container input {
+    width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.input-container button {
+    font-size: 1.2rem;
+    padding-inline: 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background: #486ee9;
+}
+
+.divider {
+    height: 2px;
+    width: 70%;
+    background-color: white;
+    margin: 30px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    min-width: 855px;
+    justify-content: space-between;
+    background-color: #677081;
+    padding-inline: 30px;
+    border-radius: 15px;
+}
+
+.completed {
+    background-color: #353a44;
+}
+
+.completed h2 {
+    text-decoration: line-through;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.buttons button {
+    height: 40px;
+    padding-inline: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background: rgb(182, 65, 65);
+    font-weight: 600;
+}
+
+.buttons input {
+    width: 35px;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+}
